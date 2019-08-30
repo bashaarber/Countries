@@ -10,12 +10,13 @@
 		351A259F23180DA0005801F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A259E23180DA0005801F5 /* AppDelegate.swift */; };
 		351A25A123180DA0005801F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A25A023180DA0005801F5 /* ViewController.swift */; };
 		351A25A423180DA0005801F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351A25A223180DA0005801F5 /* Main.storyboard */; };
-		351A25A623180DAA005801F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351A25A523180DAA005801F5 /* Assets.xcassets */; };
 		351A25A923180DAA005801F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351A25A723180DAA005801F5 /* LaunchScreen.storyboard */; };
 		351A25B523181204005801F5 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A25B323181204005801F5 /* CountryCell.swift */; };
 		351A25B623181204005801F5 /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 351A25B423181204005801F5 /* CountryCell.xib */; };
 		351A25B823193687005801F5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A25B723193687005801F5 /* DetailsViewController.swift */; };
 		351A25BA2319453B005801F5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A25B92319453B005801F5 /* Country.swift */; };
+		351A25BC23196CA0005801F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351A25BB23196CA0005801F5 /* Assets.xcassets */; };
+		351A25C023197005005801F5 /* worldwide.png in Resources */ = {isa = PBXBuildFile; fileRef = 351A25BF23197005005801F5 /* worldwide.png */; };
 		EDFE62C52832FB758BCA1DEB /* Pods_Countries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E417C9160D73891C5368FC /* Pods_Countries.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,13 +26,14 @@
 		351A259E23180DA0005801F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		351A25A023180DA0005801F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		351A25A323180DA0005801F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		351A25A523180DAA005801F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		351A25A823180DAA005801F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		351A25AA23180DAA005801F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		351A25B323181204005801F5 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
 		351A25B423181204005801F5 /* CountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
 		351A25B723193687005801F5 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		351A25B92319453B005801F5 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		351A25BB23196CA0005801F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		351A25BF23197005005801F5 /* worldwide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldwide.png; sourceTree = "<group>"; };
 		46B02443056C38CBD4359C79 /* Pods-Countries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Countries.debug.xcconfig"; path = "Target Support Files/Pods-Countries/Pods-Countries.debug.xcconfig"; sourceTree = "<group>"; };
 		A59DE5E427FC6BF5BAE0E4EF /* Pods-Countries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Countries.release.xcconfig"; path = "Target Support Files/Pods-Countries/Pods-Countries.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,11 +83,12 @@
 				351A259E23180DA0005801F5 /* AppDelegate.swift */,
 				351A25A023180DA0005801F5 /* ViewController.swift */,
 				351A25A223180DA0005801F5 /* Main.storyboard */,
-				351A25A523180DAA005801F5 /* Assets.xcassets */,
 				351A25A723180DAA005801F5 /* LaunchScreen.storyboard */,
 				351A25AA23180DAA005801F5 /* Info.plist */,
+				351A25BB23196CA0005801F5 /* Assets.xcassets */,
 				351A25B723193687005801F5 /* DetailsViewController.swift */,
 				351A25B92319453B005801F5 /* Country.swift */,
+				351A25BF23197005005801F5 /* worldwide.png */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -169,8 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				351A25B623181204005801F5 /* CountryCell.xib in Resources */,
+				351A25C023197005005801F5 /* worldwide.png in Resources */,
 				351A25A923180DAA005801F5 /* LaunchScreen.storyboard in Resources */,
-				351A25A623180DAA005801F5 /* Assets.xcassets in Resources */,
+				351A25BC23196CA0005801F5 /* Assets.xcassets in Resources */,
 				351A25A423180DA0005801F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

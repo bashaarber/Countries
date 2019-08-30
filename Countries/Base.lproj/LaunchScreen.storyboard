@@ -18,16 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="globe_map_travel_128527_1080x1920" translatesAutoresizingMaskIntoConstraints="NO" id="RBg-oh-1X2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="zuf-6w-AaI">
+                                <rect key="frame" x="79" y="280.5" width="256" height="335.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="worldwide.png" translatesAutoresizingMaskIntoConstraints="NO" id="wQ5-hc-fjn">
+                                        <rect key="frame" x="0.0" y="0.0" width="256" height="256"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="256" id="Yes-tb-GsK"/>
+                                            <constraint firstAttribute="width" constant="256" id="xpR-QG-60C"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Countries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfi-Qj-n0g">
+                                        <rect key="frame" x="15.5" y="280" width="225" height="55.5"/>
+                                        <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.074509803920000006" green="0.4941176471" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="RBg-oh-1X2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tw5-1r-qkY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RBg-oh-1X2" secondAttribute="trailing" id="gWj-gl-glb"/>
-                            <constraint firstAttribute="bottom" secondItem="RBg-oh-1X2" secondAttribute="bottom" id="kvZ-BX-Pxb"/>
-                            <constraint firstItem="RBg-oh-1X2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="syC-Ep-Tlc"/>
+                            <constraint firstItem="zuf-6w-AaI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="HXQ-kS-Imk"/>
+                            <constraint firstItem="zuf-6w-AaI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J4W-Vi-Guu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +51,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="globe_map_travel_128527_1080x1920" width="1080" height="1920"/>
+        <image name="worldwide.png" width="409.60000610351562" height="409.60000610351562"/>
     </resources>
 </document>

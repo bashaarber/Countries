@@ -111,14 +111,14 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aD9-TA-GJM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aD9-TA-GJM">
                                 <rect key="frame" x="16" y="60" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="6Z0-Zt-VdV"/>
                                     <constraint firstAttribute="height" constant="64" id="IoK-FD-JMZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Back">
+                                <color key="tintColor" red="0.96862745100000003" green="0.76078431369999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="baseline_arrow_back_black_48pt">
                                     <color key="titleColor" red="0.96862745100000003" green="0.76078431369999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -353,6 +353,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="baseline_arrow_back_black_48pt" width="48" height="48"/>
         <image name="outline_search_black_36pt" width="36" height="36"/>
     </resources>
 </document>

@@ -76,6 +76,7 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
         tableView.register(UINib(nibName: "CountryCell", bundle: nil), forCellReuseIdentifier: "countryCell")
         tableView.layer.masksToBounds = true
         tableView.layer.cornerRadius = 5
+        tableView.scrollsToTop = true
     }
     
     func textSearchRounderCorner(){
